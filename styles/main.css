@@ -1,0 +1,701 @@
+body {
+  padding-top: 56px;
+}
+/* login style */
+
+/* navbar-style */
+
+.a_navbar:hover,
+.a_selected {
+  color: red;
+  background: #efefef;
+}
+.logo_a_navbar:hover {
+  background: none;
+}
+
+#logo {
+  width: 50px;
+  border-radius: 25px;
+}
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 70px;
+  font-weight: bold;
+}
+/* image and text style */
+#background {
+  width: 50%;
+  border-radius: 25px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  float: left;
+}
+#title-style {
+  margin: 70px;
+}
+
+#functioneaza-align {
+  text-align: center;
+  margin-right: 70px;
+}
+.text-arrangement {
+  font-weight: 600;
+  font-size: larger;
+}
+/* Servicii */
+.picture-style {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 15px;
+  margin: 0 auto;
+  display: block;
+}
+.align {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.center-picture {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.space-top {
+  padding-top: 40px;
+}
+.gradinar-style {
+  width: 180px;
+  height: 180px;
+}
+.button-style {
+  margin-top: 15px;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.entry {
+  display: inline-block;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 50px;
+  background-color: whitesmoke;
+  width: 250px;
+  height: 265px;
+  overflow: hidden;
+}
+.avantaje-t {
+  font-weight: bold;
+  color: aqua;
+  margin-top: 20px;
+}
+.avantaje-p {
+  margin: 10px;
+}
+.avantaje-img {
+  margin-top: 15px;
+  width: 79px;
+  height: 69px;
+}
+/* form-style */
+#text-contact {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.form {
+  /* Just to center the form on the page */
+  margin: auto;
+  width: 60%;
+  /* To see the limits of the form */
+  padding: 5px;
+  /*
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #ebcfb2; */
+}
+
+input,
+textarea,
+label {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+textarea {
+  height: 300px;
+  background-color: aliceblue;
+  display: block;
+}
+.div-margin {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2px;
+  font-family: Calibri;
+  letter-spacing: 1px;
+}
+.grid-container-element {
+  text-align: center;
+}
+.grid-child-element1 {
+  text-align: left;
+  display: inline-block;
+}
+.grid-child-element2 {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+}
+.center-button {
+  text-align: center;
+  margin-top: 50px;
+}
+.button-style2 {
+  padding: 15px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: turquoise;
+  color: white;
+}
+.button-style2:hover {
+  background-color: beige;
+  color: turquoise;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.row_f {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col_f {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.col_f:nth-child(2),
+.col_f:nth-child(3) {
+  flex-basis: 15%;
+}
+.logo_f {
+  width: 80px;
+  margin-bottom: 50px;
+}
+.col_f h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.ul_f,
+.li_f {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.ul_f,
+.li_f,
+.a_f {
+  text-decoration: none;
+  color: white;
+}
+.align_f {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.form_f {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+.form_f,
+.fa-regular {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.form_f,
+.input_f {
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+.form_f,
+.button_f {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.form_f,
+.button_f,
+.fa-solid {
+  font-size: 16px;
+  color: white;
+}
+.social_icons .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.copyright {
+  text-align: center;
+}
+.underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  margin-top: 5px;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 4s linear infinite;
+}
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@media (max-width: 700px) {
+  footer {
+    bottom: unset;
+  }
+  .col_f {
+    flex-basis: 100%;
+  }
+
+  .col_f:nth-child(2),
+  .col_f:nth-child(3) {
+    flex-basis: 100%;
+  }
+}
+/* about-css */
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper .swiper-button-prev {
+  color: antiquewhite;
+}
+
+.swiper .swiper-button-next {
+  color: antiquewhite;
+}
+
+.swiper .swiper-pagination {
+  margin-bottom: 200px;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: antiquewhite;
+}
+
+.text_image {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home {
+  color: red;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-style {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#clienti_style {
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: auto;
+  padding: 15px;
+  border: 2px solid black;
+  max-width: 70%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.blockquote {
+  color: white;
+  text-shadow: -1px 1px #555;
+  font-style: italic;
+  position: relative;
+  z-index: 20;
+}
+
+.left {
+  position: absolute;
+  top: -50px;
+  left: -40px;
+  width: 150px;
+  text-align: left;
+  z-index: 10;
+  font-size: 8rem;
+  color: #336699;
+  line-height: 200px;
+}
+
+.right {
+  position: absolute;
+  bottom: -50px;
+  right: -20px;
+  width: 150px;
+  text-align: right;
+  z-index: 10;
+  font-size: 8rem;
+  color: #336699;
+  line-height: 200px;
+}
+
+/* Toast */
+
+.toast-alert {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 250px;
+  min-height: auto;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #929292;
+  animation: hideAnimation 0s ease-in 3.5s;
+  animation-fill-mode: forwards;
+  z-index: 5000;
+}
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+.toast-alert-header {
+  height: 25px;
+  background: #1bb11b;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-family: Calibri;
+}
+.toast-alert-body {
+  text-align: center;
+  margin-top: -4.5px;
+  font-weight: 500;
+  color: #444444;
+  font-family: Calibri;
+}
+
+/* End of Toast */
+
+/* -- My Account page -- */
+
+.my-account-container {
+  width: 100%;
+  /* background: pink; */
+}
+.my-account-container h3 {
+  text-align: center;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.my-account-complete-your-profile-text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.my-account-complete-your-profile-text {
+  width: fit-content;
+  text-align: center;
+  color: rgb(23, 100, 224);
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-size: 13.5px;
+  border-left: 3px solid rgb(23, 100, 224);
+  padding-left: 11px;
+  margin: 12px 0 22px 0;
+}
+.my-account-content {
+  display: flex;
+  /* background: #336699; */
+}
+.my-account-pic-col {
+  /* background: #1bb11b; */
+  flex-basis: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.my-account-info-col {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+.my-account-pic-wrapper {
+  width: 160px;
+  height: 160px;
+  margin-right: 60px;
+}
+.my-account-pic-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 80px;
+}
+.my-account-pic-wrapper-delete-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.c-my-account {
+  width: 60%;
+  padding-left: 35px;
+}
+
+/* -- End of My Account page -- */
+
+/* -- Forgot Password page -- */
+
+#forgot-password-page-container h2 {
+  text-align: center;
+}
+#forgot-password-page-content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#forgot-password-form {
+  width: 450px;
+}
+#forgot-password-email-input-wrapper {
+  margin-top: 20px;
+}
+#forgot-password-form-reset-btn-wrapper {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+/* -- End of Forgot Password page -- */
+
+/* -- Account Recovery page -- */
+
+#recover-account-container h2 {
+  text-align: center;
+}
+#recover-account-page-content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#recover-account-form {
+  width: 450px;
+}
+#recover-account-email-input-wrapper {
+  margin-top: 20px;
+}
+#recover-account-form-reset-btn-wrapper {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+/* -- End of Account Recovery page -- */
+
+/* -- Avatar Dropdown -- */
+
+/* Dropdown Button */
+.avatar-profile-picture {
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+}
+.avatar-dropdown-btn {
+  color: rgba(19, 19, 19, 0.55);
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.avatar-dropdown {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.avatar-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.avatar-dropdown-content a {
+  color: black !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.avatar-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.avatar-dropdown:hover .avatar-dropdown-content {
+  display: block;
+}
+
+/* -- End of Avatar Dropdown -- */
+
+/* -- Cere Oferta page -- */
+
+.cere-oferta-container h3 {
+  text-align: center;
+}
+.cere-oferta-form-wrapper {
+  display: flex;
+}
+.cere-oferta-product-name-col {
+  flex-basis: 30%;
+}
+.cere-oferta-form-col {
+  flex-basis: 70%;
+}
+.cere-oferta-product-name-col p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Calibri;
+  letter-spacing: 1px;
+  color: #e94d3e;
+}
+.cere-oferta-form {
+  width: 60%;
+}
+
+/* -- End of Cere Oferta page -- */
+
+/* -- Lucrarile pages -- */
+
+.lucrarile-container {
+  padding-left: 50px;
+}
+.lucrarile-heading {
+  margin-top: 38px;
+  margin-bottom: 26.5px;
+}
+.lucrarile-view-image-link {
+  color: #fff;
+}
+/* -- End of Lucrarile pages -- */
+
+.error-text {
+  color: #f00;
+  font-family: "Sawarabi Gothic", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 13.5px;
+}
+.info-text-small {
+  color: gray;
+  font-size: 12.5px;
+}
+.order-pending-bg,
+.order-cancelled-bg {
+  background-color: #fe6153;
+}
+.order-accepted-bg {
+  background-color: #3ee955;
+}
+.no-record-found-text {
+  text-align: center;
+  color: #515151;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.order-cancelled-bg a {
+  color: #fff;
+}
